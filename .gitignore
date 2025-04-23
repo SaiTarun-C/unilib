@@ -1,0 +1,27 @@
+# Ignore build and IDE files
+/build/
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.a
+*.o
+*.so
+*.dylib
+*.exe
+*.out
+*.obj
+*.pdb
+*.lib
+
+# IDEs
+.vscode/
+.idea/
+
+# User-specific files
+*.swp
+*.swo
+.DS_Store
+
+# Dependency directories
+/dependencies/
